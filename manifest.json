@@ -1,0 +1,16 @@
+{
+  "name": "Folio — Markdown Reader",
+  "short_name": "Folio",
+  "description": "A mobile-friendly Markdown reader with syntax-highlighted code, tables, and an outline view. Works fully offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAF9F6",
+  "theme_color": "#B8892F",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
