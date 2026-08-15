@@ -1070,7 +1070,7 @@
       btn.className = 'outline-item outline-' + h.tagName.toLowerCase();
       btn.textContent = h.textContent;
       btn.addEventListener('click', function(){
-        closeSheet();
+        closeActiveSheet();
         setTimeout(function(){ h.scrollIntoView({behavior:'smooth', block:'start'}); }, 260);
       });
       outlineList.appendChild(btn);
